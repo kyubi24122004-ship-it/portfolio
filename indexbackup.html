@@ -1,0 +1,1487 @@
+<!doctype html>
+<html lang="en" class="antialiased">
+<head>
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+  <!-- Primary SEO -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vishnu Vighas — Technical Support Engineer & Aspiring Learner</title>
+  <meta name="description" content="Vishnu Vighas — Technical Support Engineer at Seekahost India. 5 years experience in hosting, DNS, SSL & WordPress. Handled 800+ support tickets; also skilled in video/photo editing and web development." />
+  <link rel="canonical" href="https://vishnuvighas.in/">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Vishnu Vighas — Technical Support Engineer & Aspiring Learner" />
+  <meta property="og:description" content="Technical Support Engineer at Seekahost India. 5 years experience in hosting, DNS, SSL & WordPress. Handled 800+ support tickets. Available for support and small web projects." />
+  <meta property="og:url" content="https://vishnuvighas.in/" />
+  <meta property="og:image" content="https://vishnuvighas.in/assets/images/profile-main.jpg" />
+  <meta property="og:image:alt" content="Vishnu Vighas — profile" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Vishnu Vighas — Technical Support Engineer" />
+  <meta name="twitter:description" content="Technical Support Engineer at Seekahost India. 5 years experience; 800+ tickets handled; WordPress, hosting, DNS, SSL, and creative editing skills." />
+  <meta name="twitter:image" content="https://vishnuvighas.in/assets/images/profile-main.jpg" />
+  <meta name="twitter:creator" content="@beprince24" />
+
+  <!-- Favicons & PWA -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon-vv-icon.svg">
+  <link rel="alternate icon" href="/assets/favicon-vv-icon-flat.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <meta name="theme-color" content="#111318">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Vishnu Vighas",
+    "alternateName": "Prince",
+    "jobTitle": "Technical Support Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Seekahost India"
+    },
+    "url": "https://vishnuvighas.in/",
+    "sameAs": [
+      "https://github.com/beprince24",
+      "https://www.linkedin.com/in/vishnu-vighas-s"
+    ],
+    "email": "mailto:vishnuharshini24@gmail.com",
+    "description": "Technical Support Engineer with 5 years experience in hosting, DNS, SSL & WordPress. Handled 800+ support tickets; also skilled in video/photo editing and web development."
+  }
+  </script>
+
+  <!-- Tailwind CDN & configuration -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { 500: '#22d3ee', 600: '#0ea5e9' },
+            accent: { 500: '#6366f1' }
+          },
+          boxShadow: {
+            neon: '0 15px 40px rgba(34,211,238,0.25)',
+            soft: '0 20px 50px rgba(15,23,42,0.85)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes rotateInR {
+  from { opacity: 0; transform: rotate(12deg) scale(0.95); }
+  to { opacity: 1; transform: rotate(0deg) scale(1); }
+}
+@keyframes rotateInL {
+  from { opacity: 0; transform: rotate(-12deg) scale(0.95); }
+  to { opacity: 1; transform: rotate(0deg) scale(1); }
+}
+.animate-fade-in { animation: fadeInUp 0.8s cubic-bezier(.5,1.8,.5,1) forwards; }
+.animate-rotate-r { animation: rotateInR 0.8s cubic-bezier(.5,1.8,.5,1) forwards; }
+.animate-rotate-l { animation: rotateInL 0.8s cubic-bezier(.5,1.8,.5,1) forwards; }
+
+    :root { --header-height: 68px; }
+    html { scroll-behavior: smooth; scroll-padding-top: var(--header-height); }
+    body { scroll-behavior: smooth; }
+
+    body {
+      background-color: #020617;
+      background-image:
+        radial-gradient(circle at 0% 0%, rgba(56,189,248,0.16), transparent 55%),
+        radial-gradient(circle at 100% 10%, rgba(129,140,248,0.2), transparent 55%),
+        linear-gradient(to bottom, rgba(2,6,23,1), rgba(2,6,23,0.95));
+      color: #e5e7eb;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Dynamic background layer (keeps content stack above) */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      opacity: 0;
+      transition: opacity 420ms ease, filter 420ms ease;
+      pointer-events: none;
+      will-change: opacity, filter;
+      filter: saturate(1) contrast(0.98);
+    }
+    body.bg-visible::before { opacity: 1; }
+
+    .glass {
+      background: radial-gradient(circle at top left, rgba(56,189,248,0.15), transparent 40%),
+                  radial-gradient(circle at bottom right, rgba(129,140,248,0.18), transparent 50%),
+                  linear-gradient(150deg, rgba(15,23,42,0.95), rgba(15,23,42,0.8));
+      border: 1px solid rgba(148,163,184,0.35);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 18px 45px rgba(15,23,42,0.8), 0 0 0 1px rgba(15,23,42,0.9);
+      transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .glass:hover {
+      border-color: rgba(34,211,238,0.8);
+      box-shadow: 0 20px 55px rgba(15,23,42,0.95), 0 0 25px rgba(34,211,238,0.35);
+      transform: translateY(-2px);
+    }
+
+    .hero-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 999px;
+      border: 3px solid rgba(148,163,184,0.65);
+      box-shadow: 0 0 20px rgba(59,130,246,0.6), 0 0 60px rgba(34,211,238,0.4);
+    }
+
+    .section-title {
+      text-shadow: 0 1px 0 rgba(255,255,255,0.02), 0 12px 45px rgba(15,23,42,1);
+    }
+
+    header nav a { position: relative; transition: color 0.2s ease; }
+    header nav a::after {
+      content: ""; position: absolute; left: 0; bottom: -4px; width: 0; height: 1px;
+      background: linear-gradient(90deg, #22d3ee, #6366f1); transition: width 0.2s ease;
+    }
+    header nav a:hover::after { width: 100%; }
+
+    .gallery-item { position: relative; overflow: hidden; border-radius: 18px; border: 1px solid rgba(148,163,184,0.5); box-shadow: 0 15px 40px rgba(15,23,42,0.8); cursor: pointer; transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease; }
+    .gallery-item img.thumb { width: 100%; height: auto; display: block; transition: transform 0.4s ease; }
+    .gallery-item:hover img.thumb { transform: scale(1.06); }
+
+    .badge-edited { font-weight: 600; letter-spacing: 0.02em; box-shadow: 0 6px 18px rgba(2,6,23,0.6); }
+
+    #timeline .timeline-line { position: relative; height: 4px; border-radius: 999px; overflow: hidden; background: rgba(15,23,42,0.9); border: 1px solid rgba(148,163,184,0.5); box-shadow: 0 0 20px rgba(15,23,42,1); }
+    #timeline .timeline-line::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg,#22d3ee,#6366f1,#22d3ee); background-size: 200% 100%; animation: pulseLine 4.5s linear infinite; opacity: 0.9; }
+    @keyframes pulseLine { 0% { background-position: 0% 50%; } 100% { background-position: 200% 50%; } }
+
+    #timeline .timeline-dot { position: absolute; top: 50%; transform: translate(-50%, -50%); width: 14px; height: 14px; border-radius: 999px; background: #020617; border: 2px solid rgba(148,163,184,0.9); box-shadow: 0 0 8px rgba(15,23,42,1); transition: border-color 0.35s ease, box-shadow 0.35s ease, background-color 0.35s ease, transform 0.25s ease; }
+    #timeline .timeline-dot.active { border-color: #22d3ee; background-color: #0f172a; box-shadow: 0 0 12px rgba(34,211,238,0.9), 0 0 30px rgba(99,102,241,0.9); transform: translate(-50%, -50%) scale(1.1); }
+
+    #timeline .milestone-card { opacity: 0; transform: translateY(12px); border: 1px solid rgba(148,163,184,0.45); transition: opacity 0.6s ease, transform 0.6s ease, box-shadow 0.4s ease, border-color 0.4s ease; }
+    #timeline .milestone-card.show { opacity: 1; transform: translateY(0); }
+    #timeline .milestone-card.show:hover { border-color: rgba(56,189,248,0.85); box-shadow: 0 0 25px rgba(56,189,248,0.35); }
+
+    #lightboxOverlay { position: fixed; inset: 0; background: rgba(0,0,0,0.75); display: flex; align-items: center; justify-content: center; z-index: 50; opacity: 0; pointer-events: none; transition: opacity 0.25s ease; }
+    #lightboxOverlay.open { opacity: 1; pointer-events: auto; }
+    .lightbox-inner { max-width: 90vw; max-height: 85vh; border-radius: 20px; overflow: hidden; background: radial-gradient(circle at top, rgba(15,23,42,0.98), rgba(15,23,42,0.96)); border: 1px solid rgba(148,163,184,0.65); box-shadow: 0 25px 60px rgba(15,23,42,0.95); transform: scale(0.95); opacity: 0; animation: none; }
+    #lightboxOverlay.open .lightbox-inner { animation: lbZoomIn 0.32s ease forwards; }
+    @keyframes lbZoomIn { 0% { opacity: 0; transform: scale(0.94) translateY(8px); } 100% { opacity: 1; transform: scale(1) translateY(0); } }
+
+    .reveal { opacity: 0; transform: translateY(20px); }
+    .reveal.revealed { opacity: 1; transform: translateY(0); transition: opacity 0.6s ease, transform 0.6s ease; }
+
+    .button-neon { transition: box-shadow 0.25s ease, border-color 0.25s ease, transform 0.25s ease, background 0.25s ease; }
+    .button-neon:hover { box-shadow: 0 0 20px rgba(34,211,238,0.7), 0 0 35px rgba(99,102,241,0.7), 0 8px 32px rgba(15,23,42,0.9); border-color: rgba(34,211,238,0.85); transform: scale(1.03); }
+
+    @media (max-width: 640px) {
+      section { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+      #hero h1 { font-size: 1.9rem; line-height: 1.25; }
+      #hero p { font-size: 0.875rem; }
+      .glass { border-radius: 1rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header id="siteHeader" class="fixed w-full z-40 bg-neutral-950/85 backdrop-blur border-b border-slate-800/60">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#hero" class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-full overflow-hidden border border-slate-600">
+        <img src="assets/images/profile-main.jpg" class="w-full h-full object-cover" alt="Vishnu avatar">
+      </div>
+      <div>
+        <div class="text-sm font-semibold">Vishnu Vighas</div>
+        <div class="text-[11px] text-slate-400">Technical Support Engineer</div>
+      </div>
+    </a>
+
+    <div class="flex items-center gap-4">
+      <nav class="hidden md:flex items-center gap-5 text-[13px] text-slate-400" aria-label="Primary navigation">
+        <a href="#about" class="hover:text-primary-400">About Me</a>
+        <a href="#education" class="hover:text-primary-400">Education</a>
+        <a href="#certifications" class="hover:text-primary-400">Certifications</a>
+        <a href="#projects" class="hover:text-primary-400">Projects</a>
+        <a href="#timeline" class="hover:text-primary-400">Timeline</a>
+        <a href="gallery.html" class="hover:text-primary-400">Gallery</a>
+        <a href="https://vishnuvighas.in/blogs" target="_blank" rel="noopener noreferrer" class="group flex items-center gap-1 hover:text-primary-400 transition-colors">Blogs
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 text-primary-400 transform transition-transform duration-150 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 5h6v6m0-6L10 14m-4 6h6" />
+          </svg>
+        </a>
+      </nav>
+
+      <a href="#contact" class="hidden md:inline-flex items-center text-xs px-3 py-1.5 rounded-full border border-primary-500 bg-primary-500/10 text-primary-100">Let’s Connect</a>
+
+      <button id="mobileNavToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Toggle menu" class="md:hidden p-2 rounded-md text-slate-300 hover:bg-slate-800/60">
+        <svg id="hamburgerIcon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav id="mobileNav" class="fixed inset-0 z-50 transform -translate-y-full transition-transform duration-300 ease-in-out bg-neutral-950/95 backdrop-blur md:hidden" aria-hidden="true" style="will-change: transform;">
+  <div class="max-w-lg mx-auto mt-8 bg-transparent rounded-b-xl overflow-hidden">
+    <div class="flex items-center justify-between px-5 py-3 border-b border-slate-800/60">
+      <a href="#hero" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full overflow-hidden border border-slate-600">
+          <img src="assets/images/profile-main.jpg" alt="Vishnu avatar" class="w-full h-full object-cover">
+        </div>
+        <div>
+          <div class="text-sm font-semibold">Vishnu Vighas</div>
+          <div class="text-[11px] text-slate-400">Technical Support Engineer</div>
+        </div>
+      </a>
+
+      <button id="mobileNavClose" aria-label="Close menu" class="p-2 rounded-md text-slate-300 hover:bg-slate-800/60">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="px-5 py-6 space-y-4">
+      <a href="#about" class="block text-lg text-slate-200 px-3 py-3 rounded-lg hover:bg-slate-800/60">About Me</a>
+      <a href="#education" class="block text-lg text-slate-200 px-3 py-3 rounded-lg hover:bg-slate-800/60">Education</a>
+      <a href="#certifications" class="block text-lg text-slate-200 px-3 py-3 rounded-lg hover:bg-slate-800/60">Certifications</a>
+      <a href="#projects" class="block text-lg text-slate-200 px-3 py-3 rounded-lg hover:bg-slate-800/60">Projects</a>
+      <a href="#timeline" class="block text-lg text-slate-200 px-3 py-3 rounded-lg hover:bg-slate-800/60">Timeline</a>
+      <a href="gallery.html" class="block text-lg text-slate-200 px-3 py-3 rounded-lg hover:bg-slate-800/60">Gallery</a>
+      <a href="https://vishnuvighas.in/blogs" target="_blank" rel="noopener noreferrer" class="block text-lg text-slate-200 px-3 py-3 rounded-lg hover:bg-slate-800/60">Blogs</a>
+
+      <a href="#contact" class="block w-full text-center text-sm font-medium px-4 py-3 rounded-md border border-primary-500 bg-primary-500/10 text-primary-100 mt-2">Let’s Connect</a>
+    </div>
+
+    <div class="px-5 pb-6 text-[12px] text-slate-500">© 2025 Vishnu Vighas (Prince)</div>
+  </div>
+</nav>
+
+<script>
+  (function(){
+    const toggle = document.getElementById('mobileNavToggle');
+    const closeBtn = document.getElementById('mobileNavClose');
+    const mobileNav = document.getElementById('mobileNav');
+
+    function openMobileNav() {
+      mobileNav.style.transform = 'translateY(0%)';
+      mobileNav.setAttribute('aria-hidden', 'false');
+      if (toggle) toggle.setAttribute('aria-expanded', 'true');
+      document.documentElement.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileNav() {
+      mobileNav.style.transform = 'translateY(-100%)';
+      mobileNav.setAttribute('aria-hidden', 'true');
+      if (toggle) toggle.setAttribute('aria-expanded', 'false');
+      document.documentElement.style.overflow = '';
+      document.body.style.overflow = '';
+    }
+
+    if (toggle) toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      if (isOpen) closeMobileNav(); else openMobileNav();
+    });
+
+    if (closeBtn) closeBtn.addEventListener('click', closeMobileNav);
+
+    document.querySelectorAll('#mobileNav a[href^="#"]').forEach(a => {
+      a.addEventListener('click', () => closeMobileNav());
+    });
+
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMobileNav(); });
+
+    mobileNav.addEventListener('click', (e) => { if (e.target === mobileNav) closeMobileNav(); });
+  })();
+</script>
+
+<main>
+  <!-- HERO -->
+  <section id="hero" class="max-w-6xl mx-auto px-4 py-16">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div class="space-y-5">
+        <p class="text-xs uppercase tracking-[0.17em] text-primary-400">Hello, I'm</p>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight section-title">Vishnu Vighas
+          <span class="block mt-2 text-lg md:text-xl text-slate-300 font-semibold">Technical Support Engineer &amp; Aspiring Learner</span>
+        </h1>
+
+        <p class="text-slate-100 font-medium text-[15px]">Crafting clean, modern &amp; purpose-driven web experiences.</p>
+        <p class="text-slate-400 text-sm">Blending technology with creativity to build what matters.</p>
+
+        <p class="text-slate-300 text-[13px]">Tech support by profession, developer by passion — focused on learning, building and improving every day.</p>
+
+        <div class="flex flex-wrap gap-3 pt-3">
+          <a href="#contact" class="button-neon px-5 py-2.5 rounded-full bg-gradient-to-r from-primary-600 via-accent-500 to-primary-600 text-sm font-semibold shadow-neon">Hire Me</a>
+          <a href="Vishnuvighas-Resume.pdf" download class="button-neon px-4 py-2.5 rounded-full border border-slate-600 text-sm hover:border-primary-500">Download Resume</a>
+        </div>
+        <!-- Equal-height stat cards (same visual size) -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-4 items-stretch">
+          <div class="glass rounded-xl px-3 py-2 text-center flex flex-col justify-center h-full">
+            <div class="text-[11px] text-slate-400">Experience</div>
+            <div class="text-sm font-semibold" id="experienceDuration">Calculating…</div>
+          </div>
+
+          <div class="glass rounded-xl px-3 py-2 text-center flex flex-col justify-center h-full">
+            <div class="text-[11px] text-slate-400">Role</div>
+            <div class="text-sm font-semibold">Seekahost India</div>
+          </div>
+
+          <div class="glass rounded-xl px-3 py-2 text-center flex flex-col justify-center h-full">
+            <div class="text-[11px] text-slate-400">Education</div>
+            <div class="text-sm font-semibold">M.Sc CS (Corres)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-center md:justify-end relative">
+        <div class="absolute -inset-8 bg-gradient-to-tr from-primary-500/20 via-accent-500/20 to-transparent blur-3xl"></div>
+        <img src="assets/images/profile-main.jpg" class="hero-img relative" alt="Vishnu profile">
+      </div>
+    </div>
+  </section>
+
+   <!-- ABOUT -->
+  <section id="about" class="max-w-6xl mx-auto px-4 py-12 reveal">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-3xl font-bold section-title mb-3">About Me</h2>
+
+
+        <p class="text-slate-100 text-[15px] font-medium">
+          I’m a Technical Support Engineer at Seekahost India with 6 months of experience in hosting and support.
+          I help customers resolve hosting, DNS, SSL and WordPress issues by turning complex problems into clear,
+          actionable steps and prioritizing root-cause fixes.
+        </p>
+
+        <p class="mt-3 text-slate-300 text-[14px] leading-relaxed">
+          I have handled 500+ support tickets, communicating clearly and empathetically to reduce downtime and keep customers informed.
+          I regularly work with cPanel, phpMyAdmin, WordPress, PHP (basic), MySQL and Git while building small web projects to sharpen my development skills.
+        </p>
+
+        <p class="mt-3 text-slate-400 text-[14px] leading-relaxed">
+          I completed my B.Sc. in Computer Science (First Class) and am currently pursuing an M.Sc. in Computer Science (correspondence).
+          My goal is to grow into a support‑plus‑developer role — combining practical support experience with stronger development skills.
+          If you need reliable support or small development help, <a href="#contact" class="text-primary-300 underline">let’s talk</a>.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <div class="glass rounded-2xl p-4">
+          <p class="text-xs uppercase tracking-[0.18em] text-slate-400 mb-2">Why Choose Me</p>
+          <ul class="text-[13px] text-slate-200 space-y-2">
+            <li><strong>Proven results:</strong> Handled 800+ support tickets with clear, empathetic communication.</li>
+            <li><strong>Calm under pressure:</strong> Focused troubleshooting during outages and urgent incidents.</li>
+            <li><strong>Root‑cause approach:</strong> I prioritise fixes that prevent repeat issues, not just quick patches.</li>
+            <li><strong>Clear communication:</strong> I explain technical steps in plain language so users feel confident.</li>
+            <li><strong>Continuous improvement:</strong> Pursuing an M.Sc. while building web projects to broaden capabilities.</li>
+          </ul>
+        </div>
+
+        <div class="glass rounded-2xl p-4">
+          <p class="text-xs uppercase tracking-[0.18em] text-slate-400 mb-2">Soft Skills</p>
+          <div class="flex flex-wrap gap-2 text-[11px]">
+            <span class="px-2.5 py-1 rounded-full bg-slate-900/70 border border-slate-600/70">Patience &amp; empathy</span>
+            <span class="px-2.5 py-1 rounded-full bg-slate-900/70 border border-slate-600/70">Clear communication</span>
+            <span class="px-2.5 py-1 rounded-full bg-slate-900/70 border border-slate-600/70">Logical problem solving</span>
+            <span class="px-2.5 py-1 rounded-full bg-slate-900/70 border border-slate-600/70">Step-by-step troubleshooting</span>
+            <span class="px-2.5 py-1 rounded-full bg-slate-900/70 border border-slate-600/70">Time management</span>
+            <span class="px-2.5 py-1 rounded-full bg-slate-900/70 border border-slate-600/70">Team collaboration</span>
+            <span class="px-2.5 py-1 rounded-full bg-slate-900/70 border border-slate-600/70">Calm under Storm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="max-w-6xl mx-auto px-4 py-12 reveal">
+    <h2 class="flex items-center text-3xl font-bold section-title mb-4">
+  <svg class="w-7 h-7 mr-3 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M12 4l8 4-8 4-8-4 8-4zm0 8v4m8-4v4M4 12v4"/>
+  </svg>
+  Education
+</h2>
+
+    <h3 class="text-sm text-slate-400 uppercase tracking-[0.2em] mb-2">College</h3>
+    <div class="grid md:grid-cols-2 gap-5 mb-8">
+      <div class="glass rounded-2xl p-5">
+        <h4 class="font-semibold text-[15px]">M.Sc Computer Science (Correspondence)</h4>
+        <p class="text-xs text-slate-400 mt-1">2025 – 2027 (Pursuing)</p>
+        <p class="mt-2 text-sm text-slate-200">Kaamadhenu Arts &amp; Science College</p>
+        <p class="mt-2 text-xs text-primary-300">Pursuing alongside full-time work.</p>
+      </div>
+
+      <div class="glass rounded-2xl p-5">
+        <h4 class="font-semibold text-[15px]">B.Sc Computer Science</h4>
+        <p class="text-xs text-slate-400 mt-1">2022 – 2025</p>
+        <p class="mt-2 text-sm text-slate-200">Kaamadhenu Arts &amp; Science College</p>
+        <p class="mt-2 text-xs text-slate-300">CGPA: <span class="font-semibold">8.42</span> — First Class</p>
+      </div>
+    </div>
+
+    <h3 class="text-sm text-slate-400 uppercase tracking-[0.2em] mb-2">School</h3>
+    <div class="grid md:grid-cols-2 gap-5">
+      <div class="glass rounded-2xl p-5">
+        <h4 class="font-semibold text-[15px]">HSC (12th Standard)</h4>
+        <p class="text-xs text-slate-400 mt-1">2021 – 2022</p>
+        <p class="mt-2 text-sm text-slate-200">Govt Model Higher Secondary School, Varagarayampalayam</p>
+        <p class="mt-2 text-xs text-slate-300">Percentage: 65.6%</p>
+      </div>
+
+      <div class="glass rounded-2xl p-5">
+        <h4 class="font-semibold text-[15px]">SSLC (10th Standard)</h4>
+        <p class="text-xs text-slate-400 mt-1">2019 – 2020</p>
+        <p class="mt-2 text-sm text-slate-200">Govt Model Higher Secondary School, Varagarayampalayam</p>
+        <p class="mt-2 text-xs text-slate-300">Percentage: 69.4%</p>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- Certifications -->
+<section id="certifications" class="max-w-6xl mx-auto px-4 py-12 reveal">
+<h2 class="flex items-center text-3xl font-bold section-title mb-4">
+  <svg class="w-7 h-7 mr-3 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M17 8A5 5 0 0 1 7 8a5 5 0 1 0 10 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M12 13v4"/>
+  </svg>
+  Certifications &amp; Learning
+</h2>
+
+
+  <p class="text-sm text-slate-400 mb-5">
+    I keep learning alongside work and my M.Sc. through online courses, tutorials and hands-on practice.
+  </p>
+
+  <!-- grid: 3 columns on md+, items-stretch ensures every card gets same height -->
+  <div class="grid md:grid-cols-3 gap-6 items-stretch">
+    <div class="glass rounded-2xl p-5 flex flex-col h-full">
+      <h3 class="font-semibold text-sm">GitHub Tutorial for Beginners</h3>
+      <p class="text-xs text-slate-400 mt-2">Version control basics &amp; workflows.</p>
+      <p class="text-xs text-slate-400 mt-4 mt-auto">Status: Completed</p>
+    </div>
+
+    <div class="glass rounded-2xl p-5 flex flex-col h-full">
+      <h3 class="font-semibold text-sm">Web Development Fundamentals</h3>
+      <p class="text-xs text-slate-400 mt-2">HTML, CSS, basic JavaScript &amp; PHP.</p>
+      <p class="text-xs text-slate-400 mt-4 mt-auto">Status: Ongoing self-learning</p>
+    </div>
+
+    <div class="glass rounded-2xl p-5 flex flex-col h-full">
+      <h3 class="font-semibold text-sm">Hosting &amp; DNS Concepts</h3>
+      <p class="text-xs text-slate-400 mt-2">Learned practically via daily work at Seekahost.</p>
+      <p class="text-xs text-slate-400 mt-4 mt-auto">Status: Continuous improvement</p>
+    </div>
+
+    <!-- Additional certificates continue and will follow same sizing in the grid -->
+    <div class="glass rounded-2xl p-5 flex flex-col h-full">
+      <h3 class="font-semibold text-sm">cPanel &amp; WHM System Administration</h3>
+      <p class="text-xs text-slate-400 mt-2">Learned practically via daily work at Seekahost &amp; certified by cPanel University.</p>
+      <p class="text-xs text-slate-400 mt-4 mt-auto">Status: Completed</p>
+    </div>
+
+    <div class="glass rounded-2xl p-5 flex flex-col h-full">
+      <h3 class="font-semibold text-sm">cPanel Professional Certification Exam</h3>
+      <p class="text-xs text-slate-400 mt-2">Practical experience at Seekahost; cPanel University certification.</p>
+      <p class="text-xs text-slate-400 mt-4 mt-auto">Status: Completed</p>
+    </div>
+
+    <div class="glass rounded-2xl p-5 flex flex-col h-full">
+      <h3 class="font-semibold text-sm">cPanel &amp; WHM Sales Professional Certification Exam</h3>
+      <p class="text-xs text-slate-400 mt-2">Practical experience with control-panel sales &amp; product knowledge; cPanel University certified.</p>
+      <p class="text-xs text-slate-400 mt-4 mt-auto">Status: Completed</p>
+    </div>
+  </div>
+
+  <p class="mt-3 text-[11px] text-slate-500">
+    More certifications will be added as I progress through my learning path and M.Sc. CS.
+  </p>
+</section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="max-w-6xl mx-auto px-4 py-12 reveal">
+    <h2 class="flex items-center text-3xl font-bold section-title mb-4">
+  <!-- Cog/Wrench Icon -->
+  <svg class="w-7 h-7 mr-3 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M9.75 3h4.5M6.75 21h10.5M3 8.25V16a2 2 0 002 2h14a2 2 0 002-2V8.25" />
+    <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2" fill="none"/>
+  </svg>
+  Technical Skills
+</h2>
+
+    <p class="text-sm text-slate-400 mb-4">Core skills I apply day-to-day: hosting and WordPress support, plus web development and tooling to build small utilities and fixes.</p>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="glass rounded-2xl p-5">
+        <h3 class="text-primary-300 font-semibold">Hosting &amp; Support — Experienced</h3>
+        <ul class="mt-3 text-sm space-y-1 text-slate-200">
+          <li>CPanel,WHMCS,WHM & Plesk</li>
+          <li>Wordpress & Sitejet builder</li>
+          <li>DNS &amp; nameservers</li>
+          <li>SSL/TLS (Let’s Encrypt) &amp; HTTPS fixes</li>
+          <li>Website migrations (manual &amp; automated)</li>
+          <li>Email deliverability (SPF / DKIM / MX)</li>
+            <li>Chat Support & Ticket Support</li>
+        </ul>
+      </div>
+
+      <div class="glass rounded-2xl p-5">
+        <h3 class="text-primary-300 font-semibold">Web Development — Comfortable</h3>
+        <ul class="mt-3 text-sm space-y-1 text-slate-200">
+          <li>HTML • CSS • JavaScript (basic)</li>
+          <li>PHP (basic) • WordPress setup &amp; debugging</li>
+          <li>Responsive UI layouts • Basic MySQL</li>
+          <li>Local dev: XAMPP / Localhost</li>
+        </ul>
+      </div>
+
+      <div class="glass rounded-2xl p-5">
+        <h3 class="text-primary-300 font-semibold">Creative &amp; Media — Video / Photo</h3>
+        <ul class="mt-3 text-sm space-y-1 text-slate-200">
+          <li>Video editing: Filimora • Capcut • Kinemaster • Inshot • VN </li>
+          <li>Audio: Audacity (voiceover cleanup)</li>
+          <li>Photo editing: Photoshop / Snapseed / Lightroom • Hypic</li>
+           <li>Poster Creation: Canva (basic)</li>
+          <li>Content: basic motion cuts, color correction, simple voiceover recording + Content creator</li>
+        </ul>
+      </div>
+
+      <div class="glass rounded-2xl p-5">
+        <h3 class="text-primary-300 font-semibold">Databases &amp; Tools</h3>
+        <ul class="mt-3 text-sm space-y-1 text-slate-200">
+          <li>MySQL • phpMyAdmin</li>
+          <li>Git &amp; GitHub • VS Code</li>
+          <li>Files • FTP / SFTP (FileZilla)</li>
+          <li>WHM • Backup &amp; restore workflows</li>
+        </ul>
+      </div>
+
+
+      <div class="glass rounded-2xl p-5">
+        <h3 class="text-primary-300 font-semibold">Professional Skills</h3>
+        <ul class="mt-3 text-sm space-y-1 text-slate-200">
+          <li>Troubleshooting &amp; Learning on new things</li>
+          <li>Ticket &amp; chat handling — empathetic communication</li>
+          <li>Time &amp; priority management</li>
+          <li>Continuous learning — projects + M.Sc. in progress</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section id="tools" class="max-w-6xl mx-auto px-4 py-12 reveal">
+    <h2 class="flex items-center text-2xl font-bold section-title mb-4">
+  <svg class="w-7 h-7 mr-3 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M22.12 12.88a3 3 0 0 0-4.24 0L16.24 10.24a3 3 0 0 0-4.24 0L6.35 15.41A3 3 0 1 0 9.76 18.83l5.17-5.17a3 3 0 0 0 0-4.24z"/>
+  </svg>
+  Tools I Use Daily
+</h2>
+
+    <p class="text-sm text-slate-400 mb-4">Tools and platforms I regularly use in my technical support, editing and development work.</p>
+
+    <div class="grid sm:grid-cols-3 gap-4 text-sm" role="list">
+      <div class="glass rounded-xl px-4 py-3" role="listitem" aria-label="cPanel and File Manager">
+        <strong class="block text-sm mb-1">Hosting &amp; Control Panel</strong>
+        <div class="text-[13px] text-slate-200">cPanel • File Manager • DNS panels • Domain management</div>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3" role="listitem" aria-label="phpMyAdmin and MySQL">
+        <strong class="block text-sm mb-1">Databases &amp; Local</strong>
+        <div class="text-[13px] text-slate-200">phpMyAdmin • MySQL • XAMPP / Localhost</div>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3" role="listitem" aria-label="WordPress Dashboard">
+        <strong class="block text-sm mb-1">WordPress</strong>
+        <div class="text-[13px] text-slate-200">Dashboard • Plugin/theme troubleshooting</div>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3" role="listitem" aria-label="SSL tools">
+        <strong class="block text-sm mb-1">SSL &amp; Security</strong>
+        <div class="text-[13px] text-slate-200">Let’s Encrypt • OpenSSL • Basic security checks</div>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3" role="listitem" aria-label="Development tools">
+        <strong class="block text-sm mb-1">Development Tools</strong>
+        <div class="text-[13px] text-slate-200">VS Code • Git &amp; GitHub • Browser DevTools</div>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3" role="listitem" aria-label="FTP and Filezilla">
+        <strong class="block text-sm mb-1">File Transfer &amp; Backup</strong>
+        <div class="text-[13px] text-slate-200">FTP / SFTP • FileZilla • Backup &amp; restore workflows</div>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3" role="listitem" aria-label="Photo editing tools">
+        <strong class="block text-sm mb-1">Photo Editing</strong>
+        <div class="text-[13px] text-slate-200">Photoshop / Snapseed • Lightroom • Hypic</div>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3" role="listitem" aria-label="Video editing tools">
+        <strong class="block text-sm mb-1">Video &amp; Audio</strong>
+        <div class="text-[13px] text-slate-200">Video editing: Filimora • Capcut • Kinemaster • Inshot • VN </div>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3" role="listitem" aria-label="Misc tools">
+        <strong class="block text-sm mb-1">Misc &amp; Utilities</strong>
+        <div class="text-[13px] text-slate-200">WP Migrate • Monitoring basics</div>
+      </div>
+    </div>
+
+    <p class="mt-3 text-[11px] text-slate-500">Handled 500+ support tickets — combining practical support workflows with the Logical thinking to deliver both reliable fixes and content.</p>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="max-w-6xl mx-auto px-4 py-12 reveal">
+<h2 class="flex items-center text-3xl font-bold section-title mb-4">
+  <!-- Briefcase Icon -->
+  <svg class="w-7 h-7 mr-3 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M6 7V4a2 2 0 012-2h8a2 2 0 012 2v3M6 7h12a2 2 0 012 2v9a2 2 0 01-2 2H6a2 2 0 01-2-2V9a2 2 0 012-2z" />
+  </svg>
+  Experience
+</h2>
+
+
+    <div class="glass rounded-2xl p-6">
+      <h3 class="font-semibold text-lg">Technical Support Engineer — Seekahost India</h3>
+      <p class="text-xs text-slate-400 mt-1">05 May 2025 – Present</p>
+
+      <ul class="mt-4 space-y-1.5 text-slate-200 text-[14px]">
+        <li>Overview of the Day to Day Technical Support</li>
+        <li>• Solve hosting issues: domain pointing, nameservers, DNS records, SSL, email and WordPress problems.</li>
+        <li>• Manage cPanel tasks including file operations, backups, restores and database troubleshooting via phpMyAdmin.</li>
+        <li>• Install, migrate and fix WordPress sites including plugin/theme conflicts and PHP errors.</li>
+        <li>• Configure DNS records (A, CNAME, MX, TXT, SPF) and guide users on domain and email-related settings.</li>
+        <li>• Install and troubleshoot SSL certificates and resolve HTTPS / “Not Secure” warnings.</li>
+        <li>• Communicate clearly via tickets and chat, documenting steps so non-technical users understand what was done.</li>
+        <li>• Content Creator and Video Editor for the Seekahost India Youtube Channel</li>
+        <li>• Escalate complex cases and collaborate with senior engineers to deliver stable solutions.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+<section id="projects" class="max-w-6xl mx-auto px-4 py-12 reveal">
+<h2 class="flex items-center text-3xl font-bold section-title mb-4">
+  <svg class="w-7 h-7 mr-3 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M3 7V5a2 2 0 0 1 2-2h6l2 2h6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/>
+  </svg>
+  Projects
+</h2>
+
+  <div id="projectGrid" class="grid md:grid-cols-3 gap-6">
+    <!-- Show first 3 projects initially -->
+
+    <!-- Project 1 -->
+    <div class="glass p-5 rounded-2xl">
+      <h3 class="font-semibold text-lg">Next-Gen College Event Manager</h3>
+      <p class="text-slate-300 mt-2 text-sm">
+        A PHP + MySQL concept for managing event Timetable and student registrations + Results updation.
+      </p>
+
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a
+          href="https://github.com/beprince24/Ngcem"
+          target="_blank"
+          class="inline-flex items-center px-4 py-2 text-xs font-medium rounded-full
+                 border border-slate-500/60 text-slate-100
+                 hover:bg-slate-100 hover:text-slate-900
+                 transition-colors duration-200"
+        >
+          View GitHub Repo
+        </a>
+
+        <a
+          href="https://ngcem.vishnuvighas.in"
+          target="_blank"
+          class="inline-flex items-center px-4 py-2 text-xs font-medium rounded-full
+                 bg-indigo-500 text-white
+                 hover:bg-indigo-400
+                 transition-colors duration-200"
+        >
+          Demo Website
+        </a>
+
+        <a
+          href="/Project-docs/NGCEM.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center px-4 py-2 text-xs font-medium rounded-full
+                 border border-slate-500/60 text-slate-100
+                 hover:bg-slate-100 hover:text-slate-900
+                 transition-colors duration-200"
+        >
+          Open or Download Docs (PDF)
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="glass p-5 rounded-2xl">
+      <h3 class="font-semibold text-lg">Sports Tracking System</h3>
+      <p class="text-slate-300 mt-2 text-sm">
+        A PHP-based system to manage sports events and participation records.
+      </p>
+
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a
+          href="https://github.com/beprince24/Sports-manager"
+          target="_blank"
+          class="inline-flex items-center px-4 py-2 text-xs font-medium rounded-full
+                 border border-slate-500/60 text-slate-100
+                 hover:bg-slate-100 hover:text-slate-900
+                 transition-colors duration-200"
+        >
+          View GitHub Repo
+        </a>
+
+        <a
+          href="https://vishnuvighas.in/Sportsmanager/"
+          target="_blank"
+          class="inline-flex items-center px-4 py-2 text-xs font-medium rounded-full
+                 bg-indigo-500 text-white
+                 hover:bg-indigo-400
+                 transition-colors duration-200"
+        >
+          Demo Website
+        </a>
+
+        <a
+          href="/Project-docs/Sportsmanager.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center px-4 py-2 text-xs font-medium rounded-full
+                 border border-slate-500/60 text-slate-100
+                 hover:bg-slate-100 hover:text-slate-900
+                 transition-colors duration-200"
+        >
+          Open or Download Docs (PDF)
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="glass p-5 rounded-2xl">
+      <h3 class="font-semibold text-lg">Project 3 Title</h3>
+      <p class="text-slate-300 mt-2 text-sm">Project 3 description goes here.</p>
+      <!-- Add buttons here similarly -->
+    </div>
+
+    <!-- Hidden projects initially -->
+    <div class="glass p-5 rounded-2xl hidden">
+      <h3 class="font-semibold text-lg">Project 4 Title</h3>
+      <p class="text-slate-300 mt-2 text-sm">Description for project 4.</p>
+      <!-- Buttons -->
+    </div>
+    <div class="glass p-5 rounded-2xl hidden">
+      <h3 class="font-semibold text-lg">Project 5 Title</h3>
+      <p class="text-slate-300 mt-2 text-sm">Description for project 5.</p>
+      <!-- Buttons -->
+    </div>
+    <!-- More hidden projects... -->
+  </div>
+
+  <div class="mt-6 text-center">
+    <button
+      id="viewAllBtn"
+      class="px-6 py-2 rounded-full bg-indigo-600 text-white hover:bg-indigo-500 transition"
+      onclick="toggleProjects()"
+    >
+      View All Projects
+    </button>
+  </div>
+</section>
+
+
+<!--View Button Toggle-->
+<script>
+function toggleProjects() {
+  const btn = document.getElementById('viewAllBtn');
+  const projects = document.querySelectorAll('#projectGrid > div');
+
+  // Check if any projects beyond index 2 are hidden
+  const isCollapsed = Array.from(projects).slice(3).some(el => el.classList.contains('hidden'));
+
+  if (isCollapsed) {
+    // Show all projects
+    projects.forEach(el => el.classList.remove('hidden'));
+    btn.textContent = 'Show Less';
+  } else {
+    // Hide projects beyond the third
+    projects.forEach((el, idx) => {
+      if (idx >= 3) el.classList.add('hidden');
+    });
+    btn.textContent = 'View All Projects';
+  }
+}
+</script>
+
+
+  <!-- TIMELINE -->
+  <section id="timeline" class="max-w-6xl mx-auto px-4 py-12 reveal">
+   <h2 class="flex items-center text-3xl font-bold section-title mb-4">
+  <!-- Path/Flag Icon -->
+  <svg class="w-7 h-7 mr-3 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M12 19V6m0 0l5 5m-5-5l-5 5" />
+  </svg>
+  Career Roadmap
+</h2>
+
+    <p class="text-sm text-slate-400">A simple flow from school to technical support engineer and ongoing M.Sc CS.</p>
+
+    <div class="mt-6 relative">
+      <div class="timeline-line"></div>
+
+      <div class="timeline-dot" data-step="1" style="left: 10%;"></div>
+      <div class="timeline-dot" data-step="2" style="left: 30%;"></div>
+      <div class="timeline-dot" data-step="3" style="left: 50%;"></div>
+      <div class="timeline-dot" data-step="4" style="left: 72%;"></div>
+      <div class="timeline-dot" data-step="5" style="left: 90%;"></div>
+    </div>
+
+    <div class="mt-8 space-y-4">
+      <div class="glass rounded-xl px-4 py-3 milestone-card" data-step="1">
+        <p class="text-xs text-slate-400">2019 – 2020</p>
+        <p class="text-sm font-semibold">SSLC — 69.4%</p>
+        <p class="text-xs text-slate-400">Govt Model Higher Secondary School, Varagarayampalayam</p>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3 milestone-card md:ml-10" data-step="2">
+        <p class="text-xs text-slate-400">2021 – 2022</p>
+        <p class="text-sm font-semibold">HSC — 65.6%</p>
+        <p class="text-xs text-slate-400">Govt Model Higher Secondary School, Varagarayampalayam</p>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3 milestone-card" data-step="3">
+        <p class="text-xs text-slate-400">2022 – 2025</p>
+        <p class="text-sm font-semibold">B.Sc Computer Science</p>
+        <p class="text-xs text-slate-400">Kaamadhenu Arts &amp; Science College — First Class (CGPA 8.42)</p>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3 milestone-card md:ml-10" data-step="4">
+        <p class="text-xs text-slate-400">05 May 2025 – Present</p>
+        <p class="text-sm font-semibold">Technical Support Engineer</p>
+        <p class="text-xs text-slate-400">Seekahost India — Hosting, DNS, SSL &amp; WordPress Support</p>
+      </div>
+
+      <div class="glass rounded-xl px-4 py-3 milestone-card" data-step="5">
+        <p class="text-xs text-slate-400">11 Jun 2025 – Present</p>
+        <p class="text-sm font-semibold">M.Sc Computer Science (Correspondence)</p>
+        <p class="text-xs text-slate-400">Kaamadhenu Arts &amp; Science College — Pursuing alongside work</p>
+      </div>
+    </div>
+  </section>
+
+<!--Highlights-->
+
+<section id="achievements" class="max-w-6xl mx-auto px-4 py-12">
+<h2 class="flex items-center text-2xl font-bold section-title mb-4">
+  <svg class="w-7 h-7 mr-3 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M9 21H15M9 21V19.5M15 21V19.5M7.5 19.5H16.5M3 4.5V9.75C3 14.25 7.5 15.75 12 15.75C16.5 15.75 21 14.25 21 9.75V4.5H3Z"/>
+  </svg>
+  Highlights
+</h2>
+
+
+  <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-6">
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">First Class in B.Sc CS</p>
+      <p class="text-xs text-slate-300">Graduated with CGPA 8.42 from Kaamadhenu Arts &amp; Science College.</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">Technical Support Role</p>
+      <p class="text-xs text-slate-300">Started career as Technical Support Engineer at Seekahost India.</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">Consistent Learning</p>
+      <p class="text-xs text-slate-300">Pursuing M.Sc CS and improving practical skills through real-world support cases.</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">First Prize in Photography</p>
+      <p class="text-xs text-slate-300">Got 1st Prize for the Photography on KASC Sparx2024.</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">First Prize in Quiz & Debugging</p>
+      <p class="text-xs text-slate-300">On Ignoriz Event - 24/01/2025</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">Completed SIC Course</p>
+      <p class="text-xs text-slate-300">Completed the Basics & Intermediate of C coding.</p>
+    </div>
+    <!-- Add more highlights as needed using same card structure -->
+  </div>
+</section>
+
+<!--Hobbies-->
+
+<section id="hobbies" class="max-w-6xl mx-auto px-4 py-12">
+<h2 class="flex items-center text-2xl font-bold section-title mb-4">
+  <svg class="w-7 h-7 mr-3 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/>
+  </svg>
+  Hobbies &amp; Interests
+</h2>
+
+
+
+
+
+  <div class="mb-8 text-slate-300 text-sm">Things that keep me inspired and learning beyond work.</div>
+  <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-6">
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">Photography &amp; Sky Watching</p>
+      <p class="text-xs text-slate-300">Capturing calm moments and nature.</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">UI &amp; Design</p>
+      <p class="text-xs text-slate-300">Enjoying clean layouts and aesthetic interfaces.</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">Learning &amp; Notes</p>
+      <p class="text-xs text-slate-300">Writing down ideas and things I learn.</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">Blogging</p>
+      <p class="text-xs text-slate-300">Sharing knowledge and experiences online.</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">Music Listening</p>
+      <p class="text-xs text-slate-300">Listening to relax and reset.</p>
+    </div>
+    <div class="glass rounded-xl px-6 py-5 shadow transition hover:shadow-lg">
+      <p class="font-semibold text-lg mb-1">Movies, Anime &amp; Webseries</p>
+      <p class="text-xs text-slate-300">Unwinding, finding inspiration, and improving communication.</p>
+    </div>
+  </div>
+</section>
+
+
+    
+
+
+    <!-- Youtube VIDEOS -->
+  <section id="videos" class="max-w-6xl mx-auto px-4 py-12 reveal">
+    <h2 class="flex items-center text-3xl font-bold section-title mb-4">
+  <!-- Video Icon -->
+  <svg class="w-7 h-7 mr-3 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <rect x="3" y="7" width="15" height="10" rx="2" stroke-width="2" />
+    <path stroke-width="2" d="M21 9l-5 3 5 3V9z" />
+  </svg>
+  Videos — Edited &amp; Voiceovered by Me
+</h2>
+
+    <p class="text-sm text-slate-400 mb-5">Selected clips where I handled both editing and voiceover. Click a thumbnail to play.</p>
+
+    <div class="grid md:grid-cols-3 gap-6" id="videoGrid">
+    
+    <!-- VIDEO 1 -->
+      <a
+  href="https://youtu.be/R07aej06uhY?si=s1MzJut4C773H0cS"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="gallery-item glass p-0 overflow-hidden relative block"
+  data-video-id="R07aej06uhY"
+  data-edited="true"
+  data-voice="true"
+  aria-label="Play video: cPanel-ல FTP Account Create செய்வது எப்படி?"
+>
+  <span class="badge-edited absolute top-3 left-3 text-[11px] px-2 py-0.5 rounded-full text-white bg-primary-600/90">
+    Edited • Voiceover
+  </span>
+
+  <img
+    class="thumb w-full h-auto block"
+    src="https://img.youtube.com/vi/R07aej06uhY/hqdefault.jpg"
+    alt="cPanel-ல FTP Account Create செய்வது எப்படி? thumbnail">
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+    <div class="w-16 h-16 rounded-full bg-black/50 flex items-center justify-center text-white text-2xl">▶</div>
+  </div>
+  <div class="p-4">
+    <h3 class="font-semibold text-lg">cPanel-ல FTP Account Create செய்வது எப்படி?</h3>
+  </div>
+</a>
+
+ <!-- VIDEO 2 -->
+      <a
+  href="https://youtu.be/uwRtge00hzY?si=rPYml8arhdABxKEd"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="gallery-item glass p-0 overflow-hidden relative block"
+  data-video-id="uwRtge00hzY"
+  data-edited="true"
+  data-voice="true"
+  aria-label="cPanel-ல் 2 Factor Authentication Enable / Disable / Reconfigure செய்வது எப்படி? "
+>
+  <span class="badge-edited absolute top-3 left-3 text-[11px] px-2 py-0.5 rounded-full text-white bg-primary-600/90">
+    Edited • Voiceover
+  </span>
+
+  <img
+    class="thumb w-full h-auto block"
+    src="https://img.youtube.com/vi/uwRtge00hzY/hqdefault.jpg"
+    alt="cPanel-ல் 2 Factor Authentication Enable / Disable / Reconfigure செய்வது எப்படி? ">
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+    <div class="w-16 h-16 rounded-full bg-black/50 flex items-center justify-center text-white text-2xl">▶</div>
+  </div>
+  <div class="p-4">
+    <h3 class="font-semibold text-lg">cPanel-ல் 2 Factor Authentication Enable / Disable / Reconfigure செய்வது எப்படி? </h3>
+  </div>
+</a>
+
+   <!-- VIDEO 3 -->    
+    <a
+  href="https://youtu.be/J74V9fzSuTs?si=yxCfmT1amQLAwNiI"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="gallery-item glass p-0 overflow-hidden relative block"
+  data-video-id="J74V9fzSuTs"
+  data-edited="true"
+  data-voice="true"
+  aria-label="Play video: cPanel-ல் 2 Factor Authentication Enable / Disable / Reconfigure செய்வது எப்படி?"
+>
+  <span class="badge-edited absolute top-3 left-3 text-[11px] px-2 py-0.5 rounded-full text-white bg-primary-600/90">
+    Edited • Voiceover
+  </span>
+
+  <img
+    class="thumb w-full h-auto block"
+    src="https://img.youtube.com/vi/J74V9fzSuTs/hqdefault.jpg"
+    alt="cPanel-ல் 2 Factor Authentication Enable / Disable / Reconfigure செய்வது எப்படி?">
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+    <div class="w-16 h-16 rounded-full bg-black/50 flex items-center justify-center text-white text-2xl">▶</div>
+  </div>
+  <div class="p-4">
+    <h3 class="font-semibold text-lg">cPanel-ல் 2 Factor Authentication Enable / Disable / Reconfigure செய்வது எப்படி? </h3>
+  </div>
+</a>
+  <!-- VIDEO 4 -->     
+    <a
+  href="https://youtu.be/azYFTHzWU7k?si=7lZDN-S3r2EJhtep"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="gallery-item glass p-0 overflow-hidden relative block"
+  data-video-id="azYFTHzWU7k"
+  data-edited="true"
+  data-voice="true"
+  aria-label="Play video: உங்க Website Business Email'அ Gmail'ல Connect பண்ண Simple Method 🔥"
+>
+  <span class="badge-edited absolute top-3 left-3 text-[11px] px-2 py-0.5 rounded-full text-white bg-primary-600/90">
+    Edited • Voiceover
+  </span>
+
+  <img
+    class="thumb w-full h-auto block"
+    src="https://img.youtube.com/vi/azYFTHzWU7k/hqdefault.jpg"
+    alt="உங்க Website Business Email'அ Gmail'ல Connect பண்ண Simple Method 🔥 thumbnail">
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+    <div class="w-16 h-16 rounded-full bg-black/50 flex items-center justify-center text-white text-2xl">▶</div>
+  </div>
+  <div class="p-4">
+    <h3 class="font-semibold text-lg">உங்க Website Business Email'அ Gmail'ல Connect பண்ண Simple Method 🔥</h3>
+  </div>
+</a>
+       
+ <!-- VIDEO 4 -->  
+<a
+  href="https://youtu.be/VmCI6SVLXuc?si=AubyPezeMEuqxGEC"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="gallery-item glass p-0 overflow-hidden relative block"
+  data-video-id="VmCI6SVLXuc"
+  data-edited="true"
+  data-voice="true"
+  aria-label="SiteJet Page Builder தமிழ் Tutorial 🚀 | Simple Drag & Drop வெச்சு Website உருவாக்குவது எப்படி?"
+>
+  <span class="badge-edited absolute top-3 left-3 text-[11px] px-2 py-0.5 rounded-full text-white bg-primary-600/90">
+    Edited • Voiceover
+  </span>
+
+  <img
+    class="thumb w-full h-auto block"
+    src="https://img.youtube.com/vi/VmCI6SVLXuc/hqdefault.jpg"
+    alt="SiteJet Page Builder தமிழ் Tutorial 🚀 | Simple Drag & Drop வெச்சு Website உருவாக்குவது எப்படி? thumbnail">
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+    <div class="w-16 h-16 rounded-full bg-black/50 flex items-center justify-center text-white text-2xl">▶</div>
+  </div>
+  <div class="p-4">
+    <h3 class="font-semibold text-lg">SiteJet Page Builder தமிழ் Tutorial 🚀 | Simple Drag & Drop வெச்சு Website உருவாக்குவது எப்படி? </h3>
+  </div>
+</a>
+   
+    <div class="mt-6">
+      <a href="https://www.youtube.com/@seekahostindia" target="_blank" rel="noopener noreferrer" class="button-neon inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-primary-600 to-accent-500 text-sm font-semibold shadow-neon">View the video posted channel</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="max-w-6xl mx-auto px-4 py-14 reveal">
+    <div class="contact-card rounded-3xl p-6 md:p-8">
+      <h2 class="flex items-center text-3xl font-bold section-title mb-4">
+  <!-- Handshake/Chat Icon -->
+  <svg class="w-7 h-7 mr-3 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      d="M8 12l4 4 4-4m0 0l-4-4-4 4" />
+  </svg>
+  Let's Work Together
+</h2>
+
+      <p class="text-sm text-slate-300 mb-2">I enjoy being the person who not only fixes a technical issue but also makes the customer feel supported, informed and confident.</p>
+      <p class="text-sm text-slate-400 mb-6">Open to opportunities, collaborations &amp; freelance support tasks. Feel free to reach out through any of the channels below.</p>
+
+      <div class="grid md:grid-cols-[1.1fr,1.2fr] gap-6 items-center">
+        <div class="space-y-4">
+          <div>
+            <p class="text-[11px] uppercase tracking-[0.2em] text-slate-400 mb-1">Primary Email</p>
+            <a href="mailto:vishnuharshini24@gmail.com" class="text-sm text-primary-300 break-all">vishnuharshini24@gmail.com</a>
+          </div>
+
+          <div>
+            <p class="text-[11px] uppercase tracking-[0.2em] text-slate-400 mb-1">WhatsApp</p>
+            <a href="https://wa.me/919047421019" class="text-sm text-primary-300">+91 9047421019</a>
+          </div>
+
+          <p class="text-xs text-slate-400">Prefer a quick message? WhatsApp is usually the fastest way to reach me.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-3">
+          <a href="mailto:vishnuharshini24@gmail.com" class="button-neon flex items-center justify-center rounded-full px-4 py-2.5 text-sm font-medium bg-gradient-to-r from-primary-600 to-accent-500 shadow-neon">Email Me</a>
+
+          <a href="https://wa.me/919047421019" class="button-neon flex items-center justify-center rounded-full px-4 py-2.5 text-sm font-medium bg-emerald-500/20 border border-emerald-400/80 text-emerald-100 shadow-neon">Chat on WhatsApp</a>
+
+          <a href="https://github.com/beprince24" target="_blank" rel="noopener noreferrer" class="button-neon flex items-center justify-center rounded-full px-4 py-2.5 text-sm font-medium bg-slate-900/80 border border-slate-500/90 text-slate-100 shadow-neon">View GitHub</a>
+
+          <a href="https://www.linkedin.com/in/vishnu-vighas-s" target="_blank" rel="noopener noreferrer" class="button-neon flex items-center justify-center rounded-full px-4 py-2.5 text-sm font-medium bg-blue-500/25 border border-blue-500/90 text-blue-100 shadow-neon">LinkedIn Profile</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-4 text-center text-[12px] text-slate-500">© 2025 Vishnu Vighas (Prince). All Rights Reserved.</div>
+  </footer>
+</main>
+
+
+
+
+
+
+
+
+
+<!-- DONT TOUCH THE BELOW CODE-->
+
+<!-- LIGHTBOX -->
+<div id="lightboxOverlay" aria-hidden="true">
+  <div class="lightbox-inner relative">
+    <span class="lightbox-close-btn" id="lightboxClose" role="button" tabindex="0" aria-label="Close lightbox">&times;</span>
+    <img id="lightboxImage" class="lightbox-img" src="" alt="Full view">
+    <div class="p-3 flex items-center justify-between gap-3">
+      <span class="text-[11px] text-slate-400">Photo from my Instagram.</span>
+      <a id="lightboxInstaLink" href="#" target="_blank" rel="noopener noreferrer" class="text-[12px] px-3 py-1.5 rounded-full border border-primary-500 text-primary-100">View on Instagram 🔗</a>
+    </div>
+  </div>
+</div>
+
+<!-- VIDEO MODAL -->
+<div id="videoModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70" aria-hidden="true" role="dialog" aria-label="Video player">
+  <div class="max-w-4xl w-full mx-4 bg-transparent rounded-xl overflow-hidden relative" role="document">
+    <button id="videoModalClose" class="absolute top-4 right-6 text-white text-2xl z-60" aria-label="Close video">×</button>
+    <div class="relative pb-[56.25%]">
+      <div id="videoContainer" class="absolute inset-0"></div>
+    </div>
+    <div class="p-3 text-xs text-slate-400 flex items-center justify-between">
+      <div>
+        <span id="videoRole" class="inline-block text-[12px] text-slate-300 mr-2"></span>
+        <span id="videoDesc">Video from my channel</span>
+      </div>
+      <a id="videoOnYouTube" href="#" target="_blank" rel="noopener noreferrer" class="text-primary-300 text-sm">Open on YouTube ↗</a>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPTS: UI behavior, timeline, lightbox, experience counter, video modal -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    (function setHeaderOffset() {
+      const header = document.getElementById('siteHeader');
+      function applyOffset() {
+        if (!header) return;
+        const h = header.offsetHeight || 68;
+        document.documentElement.style.setProperty('--header-height', h + 'px');
+        document.querySelectorAll('section[id]').forEach(sec => {
+          sec.style.scrollMarginTop = (h + 8) + 'px';
+        });
+      }
+      applyOffset();
+      window.addEventListener('resize', () => {
+        clearTimeout(window.__headerOffsetTimer);
+        window.__headerOffsetTimer = setTimeout(applyOffset, 120);
+      });
+      window.addEventListener('load', () => setTimeout(applyOffset, 60));
+    })();
+
+    /* TIMELINE */
+    const timelineSection = document.getElementById('timeline');
+    if (timelineSection) {
+      const cards = Array.from(timelineSection.querySelectorAll('.milestone-card'));
+      const dots  = Array.from(timelineSection.querySelectorAll('.timeline-dot'));
+      function playTimeline() {
+        cards.forEach((card, idx) => {
+          const dot = dots[idx];
+          setTimeout(() => { card.classList.add('show'); if (dot) dot.classList.add('active'); }, 700 + idx * 700);
+        });
+      }
+      if (!('IntersectionObserver' in window)) playTimeline();
+      else {
+        const obs = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) { playTimeline(); obs.unobserve(timelineSection); }
+          });
+        }, { threshold: 0.3 });
+        obs.observe(timelineSection);
+      }
+    }
+
+    /* LIGHTBOX (photo) */
+    const overlay = document.getElementById('lightboxOverlay');
+    const lbImage = document.getElementById('lightboxImage');
+    const lbLink  = document.getElementById('lightboxInstaLink');
+    const lbClose = document.getElementById('lightboxClose');
+    let previouslyFocused = null;
+
+    function openLightbox(src, instaUrl) {
+      if (!overlay || !lbImage || !lbLink) return;
+      previouslyFocused = document.activeElement;
+      lbImage.src = src;
+      lbLink.href = instaUrl || '#';
+      overlay.classList.add('open');
+      overlay.setAttribute('aria-hidden', 'false');
+      if (lbClose) lbClose.focus();
+    }
+    function closeLightbox() {
+      if (!overlay) return;
+      overlay.classList.remove('open');
+      overlay.setAttribute('aria-hidden', 'true');
+      lbImage.src = '';
+      if (previouslyFocused && typeof previouslyFocused.focus === 'function') previouslyFocused.focus();
+    }
+
+    const galleryImgs = document.querySelectorAll('.gallery-item img.thumb');
+    galleryImgs.forEach(img => {
+      img.addEventListener('click', () => {
+        const parent = img.closest('.gallery-item');
+        if (parent && parent.dataset && parent.dataset.videoId) return;
+        const fullSrc = img.getAttribute('data-full') || img.src;
+        const insta   = img.getAttribute('data-instagram') || '#';
+        openLightbox(fullSrc, insta);
+      });
+    });
+
+    if (lbClose) {
+      lbClose.addEventListener('click', closeLightbox);
+      lbClose.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); closeLightbox(); } });
+    }
+    if (overlay) overlay.addEventListener('click', (e) => { if (e.target === overlay) closeLightbox(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+
+    /* SCROLL REVEAL */
+    const revealEls = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && revealEls.length) {
+      const robserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) { entry.target.classList.add('revealed'); robserver.unobserve(entry.target); }
+        });
+      }, { threshold: 0.15 });
+      revealEls.forEach(el => robserver.observe(el));
+    } else revealEls.forEach(el => el.classList.add('revealed'));
+
+    /* EXPERIENCE COUNTER */
+    const expEl = document.getElementById('experienceDuration');
+    if (expEl) {
+      const joinDate = new Date(2025, 4, 5);
+      function updateExperience() {
+        const now = new Date();
+        let years = now.getFullYear() - joinDate.getFullYear();
+        let months = now.getMonth() - joinDate.getMonth();
+        let days = now.getDate() - joinDate.getDate();
+        if (days < 0) { months -= 1; const prevMonth = new Date(now.getFullYear(), now.getMonth(), 0); days += prevMonth.getDate(); }
+        if (months < 0) { years -= 1; months += 12; }
+        let text = "";
+        if (years > 0) { text += years + " year" + (years > 1 ? "s" : ""); if (months > 0) text += " " + months + " month" + (months > 1 ? "s" : ""); }
+        else { const totalMonths = (now.getFullYear() - joinDate.getFullYear()) * 12 + (now.getMonth() - joinDate.getMonth()); const m = Math.max(totalMonths, 0); text = m + " month" + (m === 1 ? "" : "s"); }
+        expEl.textContent = text;
+      }
+      updateExperience();
+      setInterval(updateExperience, 24 * 60 * 60 * 1000);
+    }
+  });
+</script>
+
+<!-- VIDEO modal script -->
+<script>
+  (function () {
+    const grid = document.getElementById('videoGrid');
+    if (!grid) return;
+
+    const items = Array.from(grid.querySelectorAll('.gallery-item[data-video-id]')).filter(i => {
+      return i.getAttribute('data-edited') === 'true' && i.getAttribute('data-voice') === 'true';
+    });
+
+    const modal = document.getElementById('videoModal');
+    const container = document.getElementById('videoContainer');
+    const closeBtn = document.getElementById('videoModalClose');
+    const videoOnYouTube = document.getElementById('videoOnYouTube');
+    const videoRole = document.getElementById('videoRole');
+    const videoDesc = document.getElementById('videoDesc');
+    let previouslyFocused = null;
+
+    function openVideo(id, meta) {
+      const iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0';
+      iframe.width = '100%'; iframe.height = '100%';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true; iframe.style.border = '0';
+
+      container.innerHTML = '';
+      container.appendChild(iframe);
+
+      videoOnYouTube.href = 'https://www.youtube.com/watch?v=' + id;
+
+      const roles = [];
+      if (meta.edited) roles.push('Edited by me');
+      if (meta.voice) roles.push('Voiceover by me');
+      videoRole.textContent = roles.length ? roles.join(' • ') + ' • ' : '';
+
+      videoDesc.textContent = meta.title || 'Video from my channel';
+
+      previouslyFocused = document.activeElement;
+      modal.classList.remove('hidden');
+      modal.setAttribute('aria-hidden', 'false');
+      if (closeBtn) closeBtn.focus();
+    }
+
+    function closeVideo() {
+      container.innerHTML = '';
+      modal.classList.add('hidden');
+      modal.setAttribute('aria-hidden', 'true');
+      if (previouslyFocused && typeof previouslyFocused.focus === 'function') previouslyFocused.focus();
+    }
+
+    items.forEach(item => {
+      const id = item.getAttribute('data-video-id');
+      const titleEl = item.querySelector('h3');
+      const title = titleEl ? titleEl.textContent.trim() : '';
+      function activate() { openVideo(id, { edited: true, voice: true, title }); }
+      item.addEventListener('click', activate);
+      item.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+      });
+    });
+
+    closeBtn && closeBtn.addEventListener('click', closeVideo);
+    modal && modal.addEventListener('click', (e) => { if (e.target === modal) closeVideo(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeVideo(); });
+  })();
+</script>
+
+<!-- Optional dynamic background switcher (disabled if prefers-reduced-motion) -->
+<script>
+  // Lightweight background switcher that respects prefers-reduced-motion.
+  (function () {
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const BACKGROUNDS = [
+      "linear-gradient(180deg, rgba(2,6,23,1) 0%, rgba(2,6,23,0.95) 40%, rgba(10,25,45,0.7) 100%), radial-gradient(circle at 20% 10%, rgba(34,211,238,0.08), transparent 18%)",
+      "linear-gradient(180deg, rgba(6,8,27,1) 0%, rgba(12,20,46,0.9) 40%, rgba(6,8,27,0.9) 100%), radial-gradient(circle at 85% 10%, rgba(99,102,241,0.07), transparent 15%)",
+      "linear-gradient(180deg, rgba(2,8,12,1), rgba(6,10,16,0.98)), radial-gradient(circle at 10% 90%, rgba(129,140,248,0.04), transparent 12%)",
+      "linear-gradient(180deg, rgba(5,10,18,1), rgba(12,28,40,0.95)), radial-gradient(circle at 80% 30%, rgba(34,197,94,0.05), transparent 12%)",
+      "linear-gradient(180deg, rgba(2,6,23,1), rgba(2,6,23,0.95))"
+    ];
+
+    const sections = Array.from(document.querySelectorAll('main section[id]'));
+    if (!sections.length) return;
+    const root = document.documentElement;
+
+    function getBgForIndex(i) { return BACKGROUNDS[i % BACKGROUNDS.length]; }
+
+    let currentId = null;
+    const obs = new IntersectionObserver((entries) => {
+      let best = null;
+      for (const e of entries) {
+        if (!best || e.intersectionRatio > best.intersectionRatio) best = e;
+      }
+      if (!best || !best.target) return;
+      const id = best.target.getAttribute('id');
+      if (id === currentId) return;
+      currentId = id;
+      const idx = sections.indexOf(best.target);
+      const cssValue = best.target.dataset.bg || getBgForIndex(idx);
+      root.style.setProperty('--page-bg', cssValue);
+      document.body.classList.add('bg-visible');
+    }, { root: null, rootMargin: '0px 0px -40% 0px', threshold: 0.15 });
+
+    sections.forEach(s => obs.observe(s));
+    // initial
+    requestAnimationFrame(() => {
+      const initial = sections.find(sec => {
+        const rect = sec.getBoundingClientRect();
+        return rect.top <= window.innerHeight * 0.5 && rect.bottom > window.innerHeight * 0.35;
+      }) || sections[0];
+      if (initial) {
+        root.style.setProperty('--page-bg', initial.dataset.bg || getBgForIndex(sections.indexOf(initial)));
+        document.body.classList.add('bg-visible');
+      }
+    });
+  })();
+</script>
+
+</body>
+</html>
